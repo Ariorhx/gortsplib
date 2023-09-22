@@ -399,9 +399,7 @@ func (ss *ServerSession) runInner() error {
 			returnedSession := ss
 
 			if err == nil || isErrSwitchReadFunc(err) {
-				// ANNOUNCE responses don't contain the session header.
-				if req.req.Method != base.Announce &&
-					req.req.Method != base.Teardown {
+				if req.req.Method != base.Teardown {
 					if res.Header == nil {
 						res.Header = make(base.Header)
 					}
