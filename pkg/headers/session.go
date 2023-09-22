@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/Ariorhx/gortsplib/pkg/base"
 )
 
 // Session is a Session header.

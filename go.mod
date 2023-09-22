@@ -1,4 +1,4 @@
-module github.com/bluenviron/gortsplib/v4
+module github.com/Ariorhx/gortsplib
 
 go 1.19
 

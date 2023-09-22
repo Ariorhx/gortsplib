@@ -17,10 +17,10 @@ import (
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
+	"github.com/Ariorhx/gortsplib"
+	"github.com/Ariorhx/gortsplib/pkg/base"
+	"github.com/Ariorhx/gortsplib/pkg/description"
+	"github.com/Ariorhx/gortsplib/pkg/format"
 )
 
 var serverCert = []byte(`-----BEGIN CERTIFICATE-----

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/url"
+	"github.com/Ariorhx/gortsplib/pkg/url"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
+	"github.com/Ariorhx/gortsplib/pkg/base"
+	"github.com/Ariorhx/gortsplib/pkg/description"
+	"github.com/Ariorhx/gortsplib/pkg/liberrors"
 )
 
 type clientMedia struct {

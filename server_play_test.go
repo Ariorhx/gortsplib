@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/ipv4"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
-	"github.com/bluenviron/gortsplib/v4/pkg/url"
+	"github.com/Ariorhx/gortsplib/pkg/base"
+	"github.com/Ariorhx/gortsplib/pkg/conn"
+	"github.com/Ariorhx/gortsplib/pkg/description"
+	"github.com/Ariorhx/gortsplib/pkg/format"
+	"github.com/Ariorhx/gortsplib/pkg/headers"
+	"github.com/Ariorhx/gortsplib/pkg/sdp"
+	"github.com/Ariorhx/gortsplib/pkg/url"
 )
 
 func uintPtr(v uint) *uint {

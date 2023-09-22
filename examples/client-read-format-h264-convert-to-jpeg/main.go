@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtph264"
-	"github.com/bluenviron/gortsplib/v4/pkg/url"
+	"github.com/Ariorhx/gortsplib"
+	"github.com/Ariorhx/gortsplib/pkg/format"
+	"github.com/Ariorhx/gortsplib/pkg/format/rtph264"
+	"github.com/Ariorhx/gortsplib/pkg/url"
 	"github.com/bluenviron/mediacommon/pkg/codecs/h264"
 	"github.com/pion/rtp"
 )
